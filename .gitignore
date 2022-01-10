@@ -1,0 +1,24 @@
+# ignore various image files and pdfs
+
+*.svg 
+*.png
+*.img
+*.pdf
+*.jpg
+*.jpeg
+*.bmp
+
+# ignore all composer dependencies in vendor as they can be reinstalled using composer.json
+vendor
+composer.lock
+.phpunit.result.cache
+
+
+# ignore vscode folder
+.vscode
+
+# ignore all env variables
+env.php
+
+# ignore specific server files
+httpd.conf
